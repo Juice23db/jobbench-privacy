@@ -1,62 +1,172 @@
-Privacy Policy – JobStack
+WERKM8 – DATENSCHUTZERKLÄRUNG / PRIVACY POLICY
+Stand: 28. Oktober 2026 · Last updated: 28 October 2026
 
-Last updated: 3 March 2026
+DEUTSCH
 
-JobStack is a business productivity application designed for managing clients, jobs, time tracking, materials, and invoices.
+1. Verantwortlicher und Kontakt
 
-1. Data Storage
+Werkm8 ist eine Android-App zur Organisation von Kunden, Aufträgen, Angeboten, Rechnungen und Arbeitsabläufen im Handwerk.
 
-JobStack stores all data locally on the user’s device. This includes:
-
-Client information
-
-Job details
-
-Time tracking records
-
-Material and cost information
-
-Generated quotes and invoices
-
-Photos and scanned receipts
-
-JobStack does not transmit user data to any external servers.
-
-2. No Data Collection
-
-JobStack does not collect, store, or process personal data outside of the user’s device.
-
-3. No Data Sharing
-
-JobStack does not sell, rent, share, or transfer user data to third parties.
-
-4. Permissions
-
-JobStack may request access to:
-
-Camera (for job photos and receipt scanning)
-
-File storage (for saving PDFs and backups)
-
-Notifications (to do lists and calendar)
-
-These permissions are used solely to provide core app functionality.
-
-5. Backups
-
-Users may export backups manually. These backups remain under the user's control and are not uploaded by JobStack.
-
-6. Security
-
-All data remains stored locally on the device. If encrypted backup features are used, encryption is performed locally.
-
-7. Children
-
-JobStack is not intended for use by children under the age of 13.
-
-8. Contact
-
-For questions regarding this Privacy Policy, contact:
-
+Verantwortlicher für die vom App-Anbieter betriebenen Konto-, Lizenz- und Supportdienste:
 Daniel Paul Sirrett
-wanderschreiner@googlemail.com
+[GESCHÄFTLICHE POSTANSCHRIFT ERGÄNZEN]
+Deutschland
+E-Mail für Datenschutzanfragen: wanderschreiner@googlemail.com
+
+Diese Erklärung beschreibt die Verarbeitung personenbezogener Daten durch die Werkm8-Android-App. Für die Marketingwebsite Werkm8.com gelten ergänzend die dort abrufbaren Datenschutzhinweise, insbesondere zum Websitehosting.
+
+2. Geschäftsdaten auf dem Gerät
+
+Werkm8 ist eine Offline-first-App. Kundendaten, Aufträge, Angebote, Rechnungen, Arbeitszeiten, Materialien, Aufmaße, Termine, Erinnerungen, Notizen, Vorlagen, Fotos, Belege, Unterschriften und Finanzübersichten werden grundsätzlich lokal auf dem Gerät gespeichert. Eine verpflichtende Cloud-Speicherung dieser Geschäftsdaten durch Werkm8 gibt es nicht.
+
+Der Nutzer entscheidet, welche Daten er in die App eingibt, exportiert, teilt oder durch optionale Funktionen sichert und synchronisiert. Für die Verarbeitung personenbezogener Daten seiner eigenen Kunden ist der selbstständige Handwerksbetrieb in der Regel selbst datenschutzrechtlich verantwortlich.
+
+„Offline-first“ bedeutet nicht „ohne jegliche Internetverbindung“: Für Anmeldung, Lizenzierung, Schutzmechanismen und freiwillig aktivierte Online-Funktionen werden die nachfolgend beschriebenen Dienste genutzt.
+
+3. Google-Anmeldung, Testphase und Lizenzierung
+
+Werkm8 bietet eine Google-Anmeldung über Firebase Authentication. Zur Einrichtung, Prüfung und Wiederherstellung von Test- und Kauflizenzen und zur Verwaltung berechtigter Geräte nutzt Werkm8 Firebase- bzw. Google-Cloud-Dienste.
+
+Dabei können verarbeitet werden: die Firebase-Nutzerkennung (UID), bei der Google-Anmeldung bereitgestellte Kontoinformationen (insbesondere E-Mail-Adresse und Anzeigename), Test- und Lizenzstatus, Zeitstempel, Kauf- und Berechtigungsinformationen, eine durch Hashing abgeleitete pseudonyme Gerätekennung und eine begrenzte Gerätebezeichnung bzw. das Gerätemodell. Authentifizierungs- und Lizenzdaten werden online verarbeitet; die Geschäftsdatenbank wird hierfür nicht routinemäßig hochgeladen.
+
+Käufe werden über Google Play abgewickelt. Werkm8 nutzt den Kauf- und Berechtigungsstatus für die Freischaltung und Wiederherstellung der Lizenz. Der Anbieter erhält für diese Prüfung keine vollständigen Kreditkartendaten des Nutzers.
+
+Rechtsgrundlage für Anmeldung und Lizenzverwaltung ist Art. 6 Abs. 1 lit. b DSGVO (Erfüllung des Nutzungsverhältnisses). Sicherheits- und Missbrauchsschutzmaßnahmen beruhen auf Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse am Schutz der Dienste). Für erstmalige Anmeldung und gelegentliche Lizenzprüfungen ist Internet erforderlich; viele Geschäftsfunktionen können mit gültiger Offline-Berechtigung ohne dauerhafte Verbindung genutzt werden.
+
+4. App-Sicherheit und Absturzdiagnose
+
+Werkm8 integriert Firebase App Check mit Google Play Integrity zum Schutz der angebundenen Dienste. Dabei können technische App- und Geräteprüfdaten an Google übermittelt und dort verarbeitet werden.
+
+Für die technische Fehleranalyse ist Firebase Crashlytics integriert. Absturzberichte können Installations- bzw. Sitzungskennungen, Gerätetyp, Betriebssystem- und App-Version, Zeitpunkte, Fehler- und Absturzprotokolle sowie Fehlermeldungen enthalten. Solche Diagnosedaten sind nicht zwingend anonym. Sie dienen der Stabilität und Fehlerbehebung und sind nicht als Ablage für Kunden- oder Auftragsdaten vorgesehen.
+
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (Sicherheit und zuverlässiger Betrieb). Nach Angaben von Firebase werden Crashlytics-Absturzdaten und zugehörige Kennungen 90 Tage vor Beginn des Löschprozesses aufbewahrt: https://firebase.google.com/support/privacy
+
+5. Optionale verschlüsselte Backups und Dropbox-Synchronisierung
+
+Werkm8 ermöglicht lokale Sicherungen und passwortverschlüsselte Exporte. Die App kann außerdem, soweit die Funktion in der installierten Version verfügbar und vom Nutzer eingerichtet ist, verschlüsselte Backups bzw. eine verschlüsselte Synchronisierung ausgewählter Geschäftsdaten und Anhänge über das eigene Dropbox-Konto anbieten.
+
+Bei einer solchen bewussten Nutzung können – abhängig von den ausgewählten Datenkategorien – Kunden- und Auftragsinformationen, Dokumente, Termine, Fotos oder Belege verschlüsselt zu Dropbox übertragen werden. Die Inhalte werden vor dem Upload auf dem Gerät verschlüsselt. Der Nutzer muss sein Verschlüsselungspasswort sicher aufbewahren. Dropbox verarbeitet zusätzlich eigene Konto-, Zugangs- und Verbindungsdaten nach seiner Datenschutzerklärung. Zur Wiederherstellung der Verbindung kann Werkm8 Zugangsinformationen im geschützten App-Speicher des Android-Geräts ablegen.
+
+Die freiwillig angeforderte Sicherung/Synchronisierung erfolgt zur Bereitstellung dieser Funktion gemäß Art. 6 Abs. 1 lit. b DSGVO. Das Trennen einer Verbindung löscht zuvor in Dropbox abgelegte Sicherungen nicht automatisch; diese müssen im Dropbox-Konto verwaltet bzw. gelöscht werden.
+
+Dropbox-Datenschutz: https://www.dropbox.com/privacy
+
+6. Berechtigungen, Karten und Weitergabe durch den Nutzer
+
+Werkm8 kann je nach Nutzung Kamera- bzw. Scannerzugriff (Fotos und Belege), Dateizugriff (Dokumente, PDFs und Backups) sowie Benachrichtigungsberechtigungen (Termine und Erinnerungen) benötigen. Die Nutzung dieser Berechtigungen führt nicht automatisch zum Upload der lokalen Geschäftsdaten.
+
+Beim Aufruf oder Einbetten von Google Maps können Adressangaben und technische Verbindungsdaten an Google übermittelt werden. Wenn der Nutzer Rechnungen, PDFs, Bilder oder E-Mails über andere Apps teilt, verarbeitet der jeweils ausgewählte Drittanbieter die freigegebenen Informationen nach dessen Bedingungen.
+
+7. Dienstleister, Verarbeitung außerhalb der EU und Sicherheit
+
+Für die beschriebenen Zwecke werden insbesondere Dienste von Google (Google-Anmeldung, Firebase Authentication, Firebase-/Google-Cloud-Backend, Google Play, App Check, Play Integrity und Crashlytics) eingesetzt; Dropbox kommt nur bei entsprechender freiwilliger Nutzung hinzu. Bei Kartenaufrufen und selbst ausgelösten Exporten können weitere ausgewählte Dienste beteiligt sein.
+
+Die Verarbeitung kann je nach Dienst auch außerhalb des Europäischen Wirtschaftsraums erfolgen. Firebase Authentication wird nach den Angaben von Google in US-Rechenzentren verarbeitet. Für internationale Übermittlungen gelten, soweit erforderlich, die einschlägigen Übermittlungsgrundlagen und Schutzmaßnahmen der Anbieter.
+
+Informationen der Anbieter:
+https://policies.google.com/privacy
+https://firebase.google.com/support/privacy
+https://www.dropbox.com/privacy
+
+Werkm8 verkauft keine Geschäftsdaten an Werbetreibende.
+
+8. Speicherung, Kontolöschung und Anfragen
+
+Lokale Geschäfts- und Kundendaten bleiben auf dem Gerät, bis sie vom Nutzer gelöscht oder die App-Daten entfernt werden. Exportierte und über andere Apps oder Dropbox gesicherte Kopien sind dort gesondert zu verwalten.
+
+Online verarbeitete Konto-, Lizenz-, Kaufprüfungs- und Sicherheitsdatensätze bleiben nur im Umfang bestehen, der für die genannten Zwecke, den Schutz vor Missbrauch, Support, die Prüfung bestehender Nutzungsrechte oder gesetzliche Pflichten erforderlich ist. Die bloße Deinstallation löscht diese Daten nicht automatisch. Firebase Authentication entfernt nach Einleitung einer Nutzerlöschung gemäß den Firebase-Angaben zugehörige Daten aus aktiven Systemen und Backups innerhalb von 180 Tagen; für andere Daten gelten die jeweiligen Löschverfahren und notwendigen Aufbewahrungsgründe.
+
+Wer sein Werkm8-Konto und die vom Anbieter verwalteten personenbezogenen Daten löschen lassen möchte, kann eine Anfrage an wanderschreiner@googlemail.com schicken. Die Anfrage kann auch ohne installierte App gestellt werden. Für die sichere Zuordnung kann eine Identitätsprüfung notwendig sein. Daten, die gesetzlich aufbewahrt werden müssen, können ausnahmsweise für die vorgeschriebene Dauer verbleiben. Eine Deinstallation oder die Löschung des Werkm8-Kontos löscht weder das Google-Konto des Nutzers noch dessen Dropbox-Konto.
+
+9. Betroffenenrechte
+
+Je nach den gesetzlichen Voraussetzungen bestehen Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch bei Verarbeitung auf Grundlage berechtigter Interessen. Eine Beschwerde bei einer zuständigen Datenschutzaufsichtsbehörde ist möglich. Anfragen zu vom Anbieter verwalteten Daten können an die angegebene E-Mail-Adresse gerichtet werden.
+
+10. Zweckgruppe und Änderungen
+
+Werkm8 richtet sich an beruflich tätige Handwerksbetriebe und nicht an Kinder. Wenn Funktionen, Dienstleister oder gesetzliche Anforderungen sich ändern, kann diese Datenschutzerklärung aktualisiert werden.
+
+ENGLISH
+
+1. Controller and contact
+
+Werkm8 is an Android application for managing tradespeople's customers, jobs, quotes, invoices and daily work.
+
+Controller for the developer-operated account, licensing and support services:
+Daniel Paul Sirrett
+[ADD BUSINESS POSTAL ADDRESS]
+Germany
+Privacy enquiries: wanderschreiner@googlemail.com
+
+This notice covers the Werkm8 Android application. The Werkm8.com marketing website provides additional website-specific privacy disclosures, especially about hosting.
+
+2. Business records stored on your device
+
+Werkm8 is offline-first. Customer and job records, quotes, invoices, time tracking, materials, measurements, appointments, reminders, notes, templates, photos, receipts, signatures and financial summaries are generally stored locally on your device. The developer does not require you to store those records in a developer-operated business cloud.
+
+You control what you enter, export, share, back up or synchronize. As a self-employed tradesperson handling your own customers' personal data, you will generally be responsible for your lawful customer-data processing under the GDPR.
+
+Offline-first does not mean that the app never communicates over the internet. Authentication, licensing, security protection and optionally enabled online features are explained below.
+
+3. Google sign-in, trials and licensing
+
+Werkm8 uses Google sign-in via Firebase Authentication. Firebase and Google Cloud services issue, verify and restore trial or paid licences and manage permitted devices.
+
+For these purposes the following data may be processed: Firebase user identifier (UID), Google account details made available on sign-in (including email address and display name), trial and licence status, timestamps, purchase and entitlement information, a pseudonymous hashed device identifier, and limited device model/name information. Account and licence information is processed online; the local business database is not routinely uploaded for licence verification.
+
+Google Play handles purchases and payments. Werkm8 uses purchase and entitlement status to activate and recover licences. The developer does not need your full payment-card details for licence verification.
+
+The legal basis for account and licence processing is GDPR Article 6(1)(b) (performance of the service). Security and anti-abuse measures rely on legitimate interests under Article 6(1)(f). Initial sign-in and occasional licence verification require internet access; many business functions can work offline with a valid offline entitlement.
+
+4. Security and crash diagnostics
+
+Werkm8 integrates Firebase App Check and Google Play Integrity to protect connected services. Google may process technical app and device attestation data.
+
+Firebase Crashlytics is integrated for technical error diagnosis. Reports may include installation/session identifiers, device model, operating system and app versions, timestamps, stack traces, error reports and messages. Such diagnostics are not necessarily anonymous and are not intended as a storage system for customer or job records.
+
+The legal basis is GDPR Article 6(1)(f) (security and reliable operation). According to Firebase, Crashlytics retains crash data and related identifiers for 90 days before starting deletion: https://firebase.google.com/support/privacy
+
+5. Optional encrypted backups and Dropbox sync
+
+Werkm8 offers local backups and password-encrypted exports. Where available in the installed version and chosen by the user, Werkm8 may also offer encrypted backups or synchronization of selected business records and attachments through the user's Dropbox account.
+
+Depending on the selected categories, the encrypted uploads may include customer and job data, documents, appointments, photos or receipts. Encryption occurs on the device before upload. Keep the encryption password safe. Dropbox also processes its own account, authorization and connection metadata according to its privacy policy. The Android app may store reconnect credentials in Android-protected app storage.
+
+The optional backup/synchronization is provided on the user's request under GDPR Article 6(1)(b). Disconnecting Dropbox does not automatically delete previously uploaded files; you manage these in Dropbox.
+
+Dropbox privacy: https://www.dropbox.com/privacy
+
+6. Device permissions, maps and sharing
+
+Depending on features used, the app may request camera/scanner access (photos and receipts), files (PDFs, documents and backups), and notifications (appointments/reminders). Using these permissions does not automatically upload local business records.
+
+Opening or embedding Google Maps can share address details and connection data with Google. When you share PDFs, photos or emails using another app, the chosen provider handles the information you provide under its own terms.
+
+7. Providers, international processing and security
+
+Relevant providers include Google (Google sign-in, Firebase Authentication, Firebase/Google Cloud backend, Google Play, App Check, Play Integrity and Crashlytics) and, only if you use it, Dropbox. Maps and expressly selected sharing services may also receive data.
+
+Depending on the service, data may be processed outside the European Economic Area. Google states that Firebase Authentication is processed in US data centres. Where required, applicable international-transfer mechanisms and provider safeguards apply.
+
+Provider information:
+https://policies.google.com/privacy
+https://firebase.google.com/support/privacy
+https://www.dropbox.com/privacy
+
+Werkm8 does not sell your business records to advertisers.
+
+8. Retention, account deletion and requests
+
+Local customer and business records remain on your device until removed or the app's data is deleted. Copies exported or saved via other apps or Dropbox must be managed separately.
+
+Online account, licence, purchase-verification and security records are kept only as needed for their purposes, misuse prevention, support, existing entitlements or applicable legal duties. Uninstalling the app does not automatically delete these records. Firebase states that after an authentication user deletion is initiated, related data is removed from live and backup systems within 180 days; other data is subject to its own deletion processes and necessary retention rules.
+
+To request deletion of your Werkm8 account and personal information controlled by the developer, email wanderschreiner@googlemail.com. You can do this without having the app installed. Identity verification may be necessary. Some records may be retained where legally required. Deleting Werkm8 does not delete your Google or Dropbox account.
+
+9. GDPR rights
+
+Subject to applicable law, you may have rights of access, correction, deletion, restriction, portability and objection to processing based on legitimate interests. You may also complain to a competent data-protection supervisory authority. Direct requests regarding developer-controlled information to the privacy contact above.
+
+10. Intended users and changes
+
+Werkm8 is for professional use by tradespeople, not children. This notice may be updated when features, providers or applicable law change.
